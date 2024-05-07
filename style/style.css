@@ -1,1 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:
+    border-box;
+}
+
+body { 
+    height: 900px;
+    --background: url('');
+    --primary-color: rgba(58, 169, 255, .5);
+    --secondary-color: rgba(7, 93, 199, 0.9);
+    --white: #fff;
+    --black: #000;
+    --gray: #333;
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(58, 169, 255, .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-text-opacity: 1;
+}
+
+header {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+
+header .center {
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: var(--white);
+	text-shadow: 1px 1px 1px var(--gray);
+    background-image: linear-gradient( 135deg, var(--primary-color) 10%, var(--secondary-color) 100%);
+    background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color)), url('https://i.imgur.com/XefZ07q.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+	
+}
+
+header .center .img img {
+    width: 25%;
+}
+
+header .center h1 {
+    color: rgb(0 3px 20px 0 rgba(255, 252, 252, 0.808));
+    cursor: default;
+    font-family: Fredoka, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+	font-size: 80px;
+	margin-bottom: 30px;
+}
+
+body .center2 {
+    margin-top: 20px;
+}
+
+body .center2 .content {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(to bottom, #ffffff, rgb(0 0 0 / 5%));
+    cursor: pointer;
+    transition: 0.25s all;
+}
+
+body .center2 .content:hover {
+    transform: scale(0.95);
+}
+
+body .center2 .content h1 {
+    margin-left: 65px;
+    margin-right: 65px;
+    color: var(--gray) !important;
+}
+
+body .center2 .content p {
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--gray) !important;
+}
+
+body .center2 .content ul li {
+    margin-left: 105px;
+    margin-right: 65px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: var(--gray) !important;
+}
+
+header .center h3, p {
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+header .center button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: var(--white);
+	background: var(--gray);
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.2);
+}
+header .center button:hover{
+	cursor: pointer;
+}
+
+
+footer {
+  background: #ebf4fa;
+}
