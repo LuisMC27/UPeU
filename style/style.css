@@ -73,17 +73,16 @@ header {
 }
 
 header .center {
-	width: 100%;
-	height: 100%;
-	padding: 50px;
-	color: var(--white);
-	text-shadow: 1px 1px 1px var(--gray);
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: var(--white);
+    text-shadow: 1px 1px 1px var(--gray);
     background-image: linear-gradient( 135deg, var(--primary-color) 10%, var(--secondary-color) 100%);
-    background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color)), url('https://i.imgur.com/XefZ07q.png');
+    background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color)), url('https://imgur.com/rxNDI25.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-	
 }
 
 header .center .img img {
