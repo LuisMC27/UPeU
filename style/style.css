@@ -7,6 +7,13 @@
     border-box;
 }
 
+body .center2 .content .proy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 body { 
     height: 900px;
     --primary-color: rgba(58, 169, 255, .5);
